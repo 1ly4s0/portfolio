@@ -38,7 +38,7 @@ document.addEventListener("scroll", function () {
 });
 
 document.getElementById("copy-email").addEventListener("click", function () {
-    navigator.clipboard.writeText("1ly4s0.priv@gmail.com");
+    navigator.clipboard.writeText("contacto@tecnobros.es");
     document.getElementById("copy-email-tooltip").textContent = "¡Copiado!";
 
     setTimeout(() => {
