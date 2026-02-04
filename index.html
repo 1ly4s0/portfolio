@@ -1,529 +1,326 @@
-<!DOCTYPE html>
-<html class="dark">
-
+﻿<!DOCTYPE html>
+<html lang="es" class="dark">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>1ly4s0 - Portfolio</title>
-	<meta lang="es">
-	<meta name="1ly4s0 - Portfolio">
-	<link rel="icon" href="./assets/img/profile.gif">
-	<link rel="stylesheet" href="./assets/css/index.css" data-n-g="">
-	<script src="https://kit.fontawesome.com/bdec180db7.js" crossorigin="anonymous" type="text/javascript"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1ly4s0 - Portfolio</title>
+  <meta name="description" content="Portfolio de Ilyas (1ly4s0), desarrollador full-stack especializado en apps de escritorio, sitios web y automatización." />
+  <link rel="icon" href="./assets/img/profile.gif" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <script src="https://kit.fontawesome.com/bdec180db7.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
 </head>
+<body>
+  <div class="decor" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
 
-<body class="bg-white dark:bg-gray-800 pb-0 sm:pb-6 bg-opacity-25">
-	<div>
-		<div class="mx-auto max-w-3xl sticky top-0 z-10">
-			<header id="header"
-				class="-full bottom-0 static flex justify-end items-center py-1 px-5 z-20 bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 backdrop-blur-lg">
-				<div id="perfil"
-					class="flex w-12 h-12 relative opacity-0 items-center bg-indigo-100  dark:bg-gray-700/60 rounded-full shadow-md border-4 border-white dark:border-gray-900/80"
-					style="opacity: 1; transform: none;">
-					<span
-						style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
-							alt="avatar" sizes="100vw" src="./assets/img/profile.gif" decoding="async" data-nimg="fill"
-							class="rounded-full drop-shadow-2xl"
-							style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
-					<p class="ml-14 font-semibold text-lg whitespace-nowrap text-slate-600 dark:text-slate-300">1ly4s0
-					</p>
-				</div>
-				<button id="dark-light" class="py-4 px-2 sm:py-5 flex items-center gap-4 outline-none">
-					<div id="sun" class="i-fa-pro:sun text-2xl dark:hidden text-slate-700"></div>
-					<div id="moon" class="i-fa-pro:moon text-2xl hidden dark:block text-slate-100"></div>
-				</button>
-			</header>
-		</div>
-		<div class="mx-auto max-w-3xl px-5 mb-5 flex flex-col gap-10">
-			<main class="flex flex-col gap-16">
-				<section class="flex flex-col sm:flex-row items-center gap-5">
-					<div
-						class="relative w-44 h-44 bg-indigo-100 dark:bg-gray-700/60 border-8 border-white dark:border-gray-900/80 shadow-lg rounded-full overflow-hidden">
-						<span
-							style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0"><img
-								alt="avatar" sizes="100vw" src="./assets/img/profile.gif" decoding="async"
-								data-nimg="fill" class="rounded-full drop-shadow-2xl"
-								style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"></span>
-					</div>
-					<div class="flex flex-col items-center sm:items-start gap-3">
-						<div class="flex flex-col items-left gap-2">
-							<h1
-								class="text-2xl sm:text-4xl text-center sm:text-left font-bold text-slate-600 dark:text-slate-100">
-								1ly4s0</h1>
-							<p class="text-slate-700 text-sm sm:text-lg dark:text-slate-300 max-w-xl rounded-2xl">¡Hola!
-								Soy Ilyas, más conocido como <b>«1ly4s0»</b>. Soy un desarrollador full-stack
-								especializado en
-								aplicaciones de escritorio y sitios web, con experiencia en automatización y
-								desarrollo de bots.</p>
-						</div>
-						<div class="flex gap-3">
-							<div class="relative group/tooltip">
-								<div
-									class="p-2.5 rounded-xl grid place-items-center bg-emerald-200 dark:bg-emerald-500">
-									<div class="i-fa-pro:bullseye-arrow text-emerald-700 dark:text-white"></div>
-								</div>
-								<span
-									class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Buscando
-									trabajo</span>
-							</div>
-							<div class="relative group/tooltip">
-								<div class="p-2.5 rounded-xl grid place-items-center bg-emerald-200 dark:bg-indigo-500"
-									style="height: 36px; align-items: center; pointer-events: none;">
-									<p style="transform: translate(0px, -4px); pointer-events: none;">Resumen</p>
-								</div>
-								<span
-									class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Pronto...</span>
-							</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio">
+        <img src="./assets/img/profile.gif" alt="Avatar de 1ly4s0" class="brand-avatar" />
+        <div>
+          <span class="brand-name">1ly4s0</span>
+          <span class="brand-tag">Full-Stack Developer</span>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#redes">Redes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn ghost small" href="#contacto">Contactar</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar a tema oscuro">
+          <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+          <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
 
-						</div>
-					</div>
-				</section>
-				<hr class="border border-dotted border-gray-300 dark:border-gray-600 rounded-md">
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Desarrollador Full-Stack</p>
+          <h1>Construyo experiencias digitales limpias, rápidas y con personalidad.</h1>
+          <p class="hero-text">Hola, soy Ilyas, más conocido como <strong>1ly4s0</strong>. Me especializo en aplicaciones de escritorio, sitios web y automatización con bots. Me enfoco en crear productos sólidos y fáciles de usar.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn ghost" href="#contacto">Hablemos</a>
+          </div>
+          <ul class="hero-badges">
+            <li class="pill accent"><i class="fa-solid fa-bullseye"></i> Buscando trabajo</li>
+            <li class="pill">Founder · TECNO BROS Studios</li>
+            <li class="pill">Automatización y bots</li>
+            <li class="pill">Apps de escritorio</li>
+          </ul>
+        </div>
+        <aside class="hero-card">
+          <div class="hero-card-top">
+            <img src="./assets/img/profile.gif" alt="Retrato de Ilyas" class="hero-avatar" />
+            <div>
+              <p class="card-name">Ilyas - 1ly4s0</p>
+              <p class="card-role">Full-Stack, Desktop, Web</p>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-value">5+</span>
+              <span class="stat-label">Años en Front-End</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">4+</span>
+              <span class="stat-label">Años en JS y C#</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">3+</span>
+              <span class="stat-label">Años en NodeJS</span>
+            </div>
+          </div>
+          <div class="hero-cta">
+            <a class="btn primary small" href="#contacto">Disponible</a>
+            <a class="btn light small" href="#proyectos">Ver trabajos</a>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-				<section class="w-full">
-					<header class="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-						<i class="fa-solid fa-briefcase"></i>
-						<h2>Experiencia</h2>
-					</header>
-					<div class="flex flex-col gap-10">
-						<div class="flex flex-col gap-5">
-							<div class="flex flex-col gap-1 ">
-								<ul
-									class="list-disc flex flex-col gap-2 ml-5 text-slate-700 dark:text-gray-300 text-md">
-									<li class="text-lg font-semibold text-slate-700 dark:text-slate-200">
-										HTML y CSS <i class="fa-solid fa-arrow-right fa-2xs"></i> +5 años
-										<p class="text-sm text-slate-500 dark:text-slate-400">Experiencia en HTML, como
-											programador de webs en front-end,
-											también usando website builders, tales como WordPress o Wix.</p>
-									</li>
-									<li class="text-lg font-semibold text-slate-700 dark:text-slate-200">
-										JS <i class="fa-solid fa-arrow-right fa-2xs"></i> +4 años
-										<p class="text-sm text-slate-500 dark:text-slate-400">Experiencia en JS del lado
-											de cliente (HTML). También en NodeJS, aplicado a servidores web,
-											aplicaciones y bots.</p>
-									</li>
-									<li class="text-lg font-semibold text-slate-700 dark:text-slate-200">
-										C#/Unity <i class="fa-solid fa-arrow-right fa-2xs"></i> +4 años
-										<p class="text-sm text-slate-500 dark:text-slate-400">Experiencia en C# aplicado
-											a Unity, como desarrollador de videojuegos.</p>
-									</li>
-									<li class="text-lg font-semibold text-slate-700 dark:text-slate-200">
-										NodeJS <i class="fa-solid fa-arrow-right fa-2xs"></i> +3 años
-										<p class="text-sm text-slate-500 dark:text-slate-400">Experiencia en NodeJS
-											aplicada a servidores web (ExpressJS),
-											aplicaciones (ElectronJS) y bots de Discord (DiscordJS).</p>
-									</li>
-									<li class="text-lg font-semibold text-slate-700 dark:text-slate-200">
-										Java <i class="fa-solid fa-arrow-right fa-2xs"></i> Aprendiendo
-										<p class="text-sm text-slate-500 dark:text-slate-400">Experiencia en Java
-											aplicado a aplicaciones de escritorio y Android.</p>
-									</li>
+    <section id="experiencia" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Experiencia</p>
+          <h2>Stack sólido para crear productos completos.</h2>
+          <p class="section-sub">Estas son las áreas donde más valor aporto, con años de experiencia real en proyectos.</p>
+        </div>
+        <div class="experience-grid">
+          <article class="exp-card">
+            <div class="exp-icon"><i class="fa-brands fa-html5"></i></div>
+            <h3>HTML y CSS</h3>
+            <p>Más de 5 años creando interfaces, landing pages y sitios con builders como WordPress o Wix.</p>
+            <span class="exp-meta">+5 años</span>
+          </article>
+          <article class="exp-card">
+            <div class="exp-icon"><i class="fa-brands fa-square-js"></i></div>
+            <h3>JavaScript</h3>
+            <p>Experiencia en frontend moderno y backend con NodeJS, APIs y bots.</p>
+            <span class="exp-meta">+4 años</span>
+          </article>
+          <article class="exp-card">
+            <div class="exp-icon"><i class="fa-brands fa-unity"></i></div>
+            <h3>C# y Unity</h3>
+            <p>Desarrollo de videojuegos y apps con C#, creando experiencias inmersivas.</p>
+            <span class="exp-meta">+4 años</span>
+          </article>
+          <article class="exp-card">
+            <div class="exp-icon"><i class="fa-brands fa-node-js"></i></div>
+            <h3>NodeJS</h3>
+            <p>Backend con Express, Electron y automatización de procesos.</p>
+            <span class="exp-meta">+3 años</span>
+          </article>
+          <article class="exp-card">
+            <div class="exp-icon"><i class="fa-brands fa-java"></i></div>
+            <h3>Java</h3>
+            <p>Aplicaciones de escritorio y Android. Actualmente profundizando en el lenguaje.</p>
+            <span class="exp-meta">Aprendiendo</span>
+          </article>
+        </div>
+      </div>
+    </section>
 
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
+    <section id="proyectos" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Proyectos</p>
+          <h2>Trabajo real, resultados medibles.</h2>
+          <p class="section-sub">Una selección de productos en los que he participado y que siguen vivos.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media">
+              <img src="./assets/img/battly.png" alt="Battly Launcher" />
+            </div>
+            <div class="project-body">
+              <h3>Battly Launcher</h3>
+              <p>Launcher de Minecraft completo, personalizable, fácil de usar y seguro.</p>
+              <div class="project-tags">
+                <span>JS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn primary small" href="https://battlylauncher.com" target="_blank" rel="noreferrer">Ver proyecto</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <img src="./assets/img/racar.png" alt="RACAR" />
+            </div>
+            <div class="project-body">
+              <h3>RACAR</h3>
+              <p>First Person Shooter multijugador con calidad gráfica y modos de juego potentes.</p>
+              <div class="project-tags">
+                <span>Unity</span>
+                <span>C#</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn primary small" href="https://play.google.com/store/apps/details?id=com.tecnobros.racar" target="_blank" rel="noreferrer">Ver proyecto</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <img src="./assets/img/neo.png" alt="NEO" />
+            </div>
+            <div class="project-body">
+              <h3>NEO</h3>
+              <p>Plataforma web para el programa educativo Neobot con panel y recursos interactivos.</p>
+              <div class="project-tags">
+                <span>JS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn primary small" href="https://www.neobot.es/" target="_blank" rel="noreferrer">Ver proyecto</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <img src="./assets/img/tecnorpc.png" alt="Tecno RPC" />
+            </div>
+            <div class="project-body">
+              <h3>Tecno RPC</h3>
+              <p>App gratuita para poner estados personalizados en Discord sin PC ni dispositivos Samsung.</p>
+              <div class="project-tags">
+                <span>Android</span>
+                <span>Java</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn primary small" href="https://play.google.com/store/apps/details?id=com.tecnobros.tecnorpc" target="_blank" rel="noreferrer">Ver proyecto</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-media">
+              <img src="./assets/img/flashexplorer.png" alt="Flash Explorer" />
+            </div>
+            <div class="project-body">
+              <h3>Flash Explorer</h3>
+              <p>Gestor de archivos avanzado con interfaz moderna para administrar información personal.</p>
+              <div class="project-tags">
+                <span>JS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn primary small" href="https://github.com/1ly4s0/flashexplorer" target="_blank" rel="noreferrer">Ver proyecto</a>
+              </div>
+            </div>
+          </article>
+        </div>
 
-				<section class="w-full">
-					<header class="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-						<i class="fa-solid fa-star"></i>
-						<h2>Proyectos</h2>
-					</header>
-					<div class="flex flex-col gap-10">
-						<div class="grid gap-10">
-							<article class="grid gap-4 sm:gap-7 md:grid-cols-2 group">
-								<a href="https://battlylauncher.com" target="_blank" rel="noreferrer" class="block">
-									<div
-										class="relative rounded-xl overflow-hidden flex bg-indigo-100 dark:bg-gray-700/50">
-										<span
-											style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
-											<span
-												style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-													style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-													alt="" aria-hidden="true"
-													src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27928%27%20height=%27599%27/%3e"></span><img
-												alt="Battly Launcher" src="./assets/img/battly.png" decoding="async"
-												data-nimg="intrinsic"
-												class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-												style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
-											<noscript><img alt="Battly Launcher" src="./assets/img/battly.png"
-													decoding="async" data-nimg="intrinsic"
-													style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-													class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-													loading="lazy" /></noscript>
-										</span>
-									</div>
-								</a>
-								<div class="flex flex-col gap-2.5 justify-center">
-									<h3 class="font-bold text-3xl text-slate-800 dark:text-white">Battly Launcher</h3>
-									<p class="text-slate-600 dark:text-slate-300 text-lg">El mejor Launcher de Minecraft
-										del 2023. Completo, personalizable, fácil de usar y seguro.</p>
-									<div class="flex gap-2 items-center mb-1">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-square-js fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">JS</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-html5 fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">HTML</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-css3-alt fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">CSS</span>
-										</div>
-									</div>
-									<div class="flex justify-start gap-3">
-										<a href="https://battlylauncher.com" target="_blank" rel="noreferrer"
-											class="flex gap-3 group/live hover:gap-6 transition-[gap] items-center text-lg py-2 px-5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-lg">
-											Ver <!-- -->
-											<div
-												class="i-fa-pro:link-simple text-2xl group-hover/live:rotate-45 transition-transform">
-											</div>
-										</a>
-									</div>
-								</div>
-							</article>
-							<article class="grid gap-4 sm:gap-7 md:grid-cols-2 group">
-								<a href="https://play.google.com/store/apps/details?id=com.tecnobros.racar"
-									target="_blank" rel="noreferrer" class="block">
-									<div
-										class="relative rounded-xl overflow-hidden flex bg-indigo-100 dark:bg-gray-700/50">
-										<span
-											style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
-											<span
-												style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-													style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-													alt="" aria-hidden="true"
-													src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27928%27%20height=%27599%27/%3e"></span><img
-												alt="Music App" src="./assets/img/racar.png" decoding="async"
-												data-nimg="intrinsic"
-												class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-												style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
-											<noscript><img alt="Music App" src="./assets/img/racar.png" decoding="async"
-													data-nimg="intrinsic"
-													style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-													class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-													loading="lazy" /></noscript>
-										</span>
-									</div>
-								</a>
-								<div class="flex flex-col gap-2.5 justify-center">
-									<h3 class="font-bold text-3xl text-slate-800 dark:text-white">RACAR</h3>
-									<p class="text-slate-600 dark:text-slate-300 text-lg">Un First Person Shooter
-										multijugador con una calidad gráfica y modos de juego impresionantes. </p>
-									<div class="flex gap-2 items-center mb-1">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-unity fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Unity</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-solid fa-file fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">CSharp</span>
-										</div>
-									</div>
-									<div class="flex justify-start gap-3">
-										<a href="https://play.google.com/store/apps/details?id=com.tecnobros.racar"
-											target="_blank" rel="noreferrer"
-											class="flex gap-3 group/live hover:gap-6 transition-[gap] items-center text-lg py-2 px-5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-lg">
-											Ver <!-- -->
-											<div
-												class="i-fa-pro:link-simple text-2xl group-hover/live:rotate-45 transition-transform">
-											</div>
-										</a>
-									</div>
-								</div>
-							</article>
-							<article class="grid gap-4 sm:gap-7 md:grid-cols-2 group">
-								<a href="https://www.neobot.es/" target="_blank" rel="noreferrer" class="block">
-									<div
-										class="relative rounded-xl overflow-hidden flex bg-indigo-100 dark:bg-gray-700/50">
-										<span
-											style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
-											<span
-												style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-													style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-													alt="" aria-hidden="true"
-													src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27928%27%20height=%27599%27/%3e"></span><img
-												alt="NEO" src="./assets/img/neo.png" decoding="async"
-												data-nimg="intrinsic"
-												class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-												style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
-											<noscript><img alt="NEO" src="./assets/img/neo.png" decoding="async"
-													data-nimg="intrinsic"
-													style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-													class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-													loading="lazy" /></noscript>
-										</span>
-									</div>
-								</a>
-								<div class="flex flex-col gap-2.5 justify-center">
-									<h3 class="font-bold text-3xl text-slate-800 dark:text-white">NEO</h3>
-									<p class="text-slate-600 dark:text-slate-300 text-lg">Un BOT de Discord
-										multifuncional para darle vida a tu servidor y hacerle pasar un buen rato a tu
-										comunidad.</p>
-									<div class="flex gap-2 items-center mb-1">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-square-js fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">JS</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-html5 fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">HTML</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-css3-alt fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">CSS</span>
-										</div>
-									</div>
-									<div class="flex justify-start gap-3">
-										<a href="https://www.neobot.es" target="_blank" rel="noreferrer"
-											class="flex gap-3 group/live hover:gap-6 transition-[gap] items-center text-lg py-2 px-5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-lg">
-											Ver
-											<div
-												class="i-fa-pro:link-simple text-2xl group-hover/live:rotate-45 transition-transform">
-											</div>
-										</a>
-									</div>
-								</div>
-							</article>
-							<article class="grid gap-4 sm:gap-7 md:grid-cols-2 group">
-								<a href="https://play.google.com/store/apps/details?id=com.tecnobros.tecnorpc"
-									target="_blank" rel="noreferrer" class="block">
-									<div
-										class="relative rounded-xl overflow-hidden flex bg-indigo-100 dark:bg-gray-700/50">
-										<span
-											style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
-											<span
-												style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-													style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-													alt="" aria-hidden="true"
-													src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27928%27%20height=%27599%27/%3e"></span><img
-												alt="NEO" src="./assets/img/tecnorpc.png" decoding="async"
-												data-nimg="intrinsic"
-												class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-												style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
-											<noscript><img alt="NEO" src="./assets/img/neo.png" decoding="async"
-													data-nimg="intrinsic"
-													style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-													class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-													loading="lazy" /></noscript>
-										</span>
-									</div>
-								</a>
-								<div class="flex flex-col gap-2.5 justify-center">
-									<h3 class="font-bold text-3xl text-slate-800 dark:text-white">Tecno RPC</h3>
-									<p class="text-slate-600 dark:text-slate-300 text-lg">Una app gratuita para poner
-										estados personalizados en Discord sin PC ni dispositivos Samsung.</p>
-									<div class="flex gap-2 items-center mb-1">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-android fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Android
-												Studio</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-java fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Java
-												+ Kotlin</span>
-										</div>
-									</div>
-									<div class="flex justify-start gap-3">
-										<a href="https://play.google.com/store/apps/details?id=com.tecnobros.tecnorpc"
-											target="_blank" rel="noreferrer"
-											class="flex gap-3 group/live hover:gap-6 transition-[gap] items-center text-lg py-2 px-5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-lg">
-											Ver
-											<div
-												class="i-fa-pro:link-simple text-2xl group-hover/live:rotate-45 transition-transform">
-											</div>
-										</a>
-									</div>
-								</div>
-							</article>
-							<article class="grid gap-4 sm:gap-7 md:grid-cols-2 group">
-								<a href="https://play.google.com/store/apps/details?id=com.tecnobros.tecnorpc"
-									target="_blank" rel="noreferrer" class="block">
-									<div
-										class="relative rounded-xl overflow-hidden flex bg-indigo-100 dark:bg-gray-700/50">
-										<span
-											style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
-											<span
-												style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-													style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-													alt="" aria-hidden="true"
-													src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27928%27%20height=%27599%27/%3e"></span><img
-												alt="NEO" src="./assets/img/flashexplorer.png" decoding="async"
-												data-nimg="intrinsic"
-												class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-												style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%">
-											<noscript><img alt="NEO" src="./assets/img/flashexplorer.png"
-													decoding="async" data-nimg="intrinsic"
-													style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-													class="rounded-lg duration-500 transition-all translate-x-9 translate-y-9 group-hover:translate-x-7 group-hover:translate-y-7"
-													loading="lazy" /></noscript>
-										</span>
-									</div>
-								</a>
-								<div class="flex flex-col gap-2.5 justify-center">
-									<h3 class="font-bold text-3xl text-slate-800 dark:text-white">Flash Explorer</h3>
-									<p class="text-slate-600 dark:text-slate-300 text-lg">Un avanzado gestor de archivos
-										para administrar tu información personal en una interfaz moderna.
-									</p>
-									<div class="flex gap-2 items-center mb-1">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-square-js fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">JS</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-html5 fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">HTML</span>
-										</div>
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-css3-alt fa-2xl"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">CSS</span>
-										</div>
-									</div>
-									<div class="flex justify-start gap-3">
-										<a href="https://github.com/1ly4s0/flashexplorer" target="_blank"
-											rel="noreferrer"
-											class="flex gap-3 group/live hover:gap-6 transition-[gap] items-center text-lg py-2 px-5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-lg">
-											Ver
-											<div
-												class="i-fa-pro:link-simple text-2xl group-hover/live:rotate-45 transition-transform">
-											</div>
-										</a>
-									</div>
-								</div>
-							</article>
-						</div>
-						<p class="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">Y
-							más...</p>
-						<div class="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-5">
-							<a href="https://github.com/1ly4s0/minecraft-authlib-injector" target="_blank"
-								rel="noreferrer"
-								class="block group border-2 border-gray-100 hover:border-gray-200 dark:border-gray-700 dark:hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1">
-								<article class="relative flex flex-col justify-between w-full py-6 px-7">
-									<h2 class="text-gray-700 dark:text-gray-200 text-lg font-bold">
-										Minecraft Authlib Injector</h2>
-									<p class="text-slate-400 dark:text-slate-200">Librería de Minecraft que modifica las
-										URL utilizadas en el sistema de autenticación</p>
-									<div class="flex gap-1 mt-1.5 items-center">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-java"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Java</span>
-										</div>
-									</div>
-									<div
-										class="absolute grid place-items-center right-3 top-3 bg-white dark:bg-gray-800 w-9 h-9 rounded-full scale-0 group-hover:scale-90 transition-transform dark:opacity-80 border-0 border-slate-100 border-indigo-100/50 dark:border-slate-200/20 shadow-sm">
-										<div class="i-fa-pro:arrow-up-right text-gray-400 dark:text-gray-50 text-2xl">
-										</div>
-									</div>
-								</article>
-							</a>
-							<a href="https://battlylauncher.com" target="_blank" rel="noreferrer"
-								class="block group border-2 border-gray-100 hover:border-gray-200 dark:border-gray-700 dark:hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1">
-								<article class="relative flex flex-col justify-between w-full py-6 px-7">
-									<h2 class="text-gray-700 dark:text-gray-200 text-lg font-bold">Battly Client</h2>
-									<p class="text-slate-400 dark:text-slate-200">El cliente oficial de Battly Launcher.
-										Con infinidad de mods para potenciar tu experiencia de juego.</p>
-									<div class="flex gap-1 mt-1.5 items-center">
-										<div class="relative group/tooltip">
-											<i class="fa-brands fa-java"></i>
-											<span
-												class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Java</span>
-										</div>
-									</div>
-									<div
-										class="absolute grid place-items-center right-3 top-3 bg-white dark:bg-gray-800 w-9 h-9 rounded-full scale-0 group-hover:scale-90 transition-transform dark:opacity-80 border-0 border-slate-100 border-indigo-100/50 dark:border-slate-200/20 shadow-sm">
-										<div class="i-fa-pro:arrow-up-right text-gray-400 dark:text-gray-50 text-2xl">
-										</div>
-									</div>
-								</article>
-							</a>
-						</div>
-					</div>
-				</section>
-				<section class="w-full">
-					<header class="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-						<i class="fa-solid fa-at"></i>
-						<h2>Redes sociales</h2>
-					</header>
-					<div class="flex flex-wrap gap-3">
-						<a href="https://github.com/1ly4s0" target="_blank" rel="noreferrer"
-							class="flex items-center gap-3 font-bold px-4 h-16 rounded-xl shadow-social-link dark:shadow-social-link-dark hover:shadow-social-link-hover dark:hover:shadow-social-link-hover-dark transition-shadow text-black/80 dark:text-white/80">
-							<i class="fa-brands fa-github fa-xl"></i>
-							GitHub
-						</a>
-						<a href="https://youtube.com/tecnobros/" target="_blank" rel="noreferrer"
-							class="flex items-center gap-3 font-bold px-4 h-16 rounded-xl shadow-social-link dark:shadow-social-link-dark hover:shadow-social-link-hover dark:hover:shadow-social-link-hover-dark transition-shadow text-red">
-							<i class="fa-brands fa-youtube fa-xl"></i>
-							YouTube
-						</a>
-						<a href="https://discord.gg/tecno-bros-885235460178342009" target="_blank" rel="noreferrer"
-							class="flex items-center gap-3 font-bold px-4 h-16 rounded-xl shadow-social-link dark:shadow-social-link-dark hover:shadow-social-link-hover dark:hover:shadow-social-link-hover-dark transition-shadow text-blue-500">
-							<i class="fa-brands fa-discord fa-xl"></i>
-							Discord
-						</a>
-						<a href="https://tiktok.com/@tecno_bros" target="_blank" rel="noreferrer"
-							class="flex items-center gap-3 font-bold px-4 h-16 rounded-xl shadow-social-link dark:shadow-social-link-dark hover:shadow-social-link-hover dark:hover:shadow-social-link-hover-dark transition-shadow text-pink-400">
-							<i class="fa-brands fa-tiktok fa-xl"></i>
-							TikTok
-						</a>
-					</div>
-				</section>
-				<section class="w-full">
-					<header class="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-						<i class="fa-solid fa-envelope"></i>
-						<h2>Contáctame</h2>
-					</header>
-					<div class="flex gap-2">
-						<input type="text" disabled=""
-							class="bg-black/5 dark:bg-white/5 w-full py-1.5 px-3 rounded-lg grid place-items-center text-slate-600 dark:text-slate-300"
-							value="contacto@tecnobros.es">
-						<div class="flex gap-2">
-							<div class="relative group/tooltip">
-								<a href="mailto:contacto@tecnobros.es" target="_blank" rel="noreferrer"
-									class="flex bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg">
-									<div class="i-fa-pro:paper-plane-top text-lg"></div>
-								</a>
-								<span
-									class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Envíame
-									un correo</span>
-							</div>
-							<div class="relative group/tooltip">
-								<button id="copy-email"
-									class="flex bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg">
-									<div class="i-fa-pro:copy text-lg"></div>
-								</button>
-								<span id="copy-email-tooltip"
-									class="absolute pointer-events-none transition-all opacity-0 z-20 bottom-full -translate-y-0 py-1 px-1.5 text-xs left-1/2 -translate-x-1/2 rounded-md whitespace-nowrap text-gray-200 bg-gray-800 dark:bg-white dark:text-gray-700 before:content-[&#39;&#39;] before:absolute before:bg-gray-800 before:rounded-sm before:w-2.5 before:rotate-45 before:h-2.5 before:-bottom-1 before:-z-10 before:left-1/2 before:-translate-x-1/2 before:dark:bg-white before:dark:gray-800 group-hover/tooltip:opacity-100 group-hover/tooltip:-translate-y-3">Copiar
-									correo</span>
-							</div>
-						</div>
-					</div>
-				</section>
-			</main>
-		</div>
-	</div>
-	<script src="./assets/js/index.js"></script>
+        <div class="more-projects">
+          <p class="section-kicker">Y más</p>
+          <div class="mini-grid">
+            <a class="mini-card" href="https://github.com/1ly4s0/minecraft-authlib-injector" target="_blank" rel="noreferrer">
+              <div>
+                <h3>Minecraft Authlib Injector</h3>
+                <p>Librería que modifica URLs del sistema de autenticación.</p>
+              </div>
+              <span class="mini-tag">Java</span>
+            </a>
+            <a class="mini-card" href="https://battlylauncher.com" target="_blank" rel="noreferrer">
+              <div>
+                <h3>Battly Client</h3>
+                <p>Cliente oficial con mods para potenciar la experiencia de juego.</p>
+              </div>
+              <span class="mini-tag">Java</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="redes" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Redes sociales</p>
+          <h2>Conecta conmigo en tus plataformas favoritas.</h2>
+          <p class="section-sub">Contenido técnico, avances y comunidad.</p>
+        </div>
+        <div class="social-grid">
+          <a class="social-card" href="https://github.com/1ly4s0" target="_blank" rel="noreferrer">
+            <div class="social-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <h3>GitHub</h3>
+              <p>Repositorios y código abierto</p>
+            </div>
+          </a>
+          <a class="social-card" href="https://youtube.com/tecnobros/" target="_blank" rel="noreferrer">
+            <div class="social-icon youtube"><i class="fa-brands fa-youtube"></i></div>
+            <div>
+              <h3>YouTube</h3>
+              <p>Videos, tutoriales y proyectos</p>
+            </div>
+          </a>
+          <a class="social-card" href="https://discord.gg/tecno-bros-885235460178342009" target="_blank" rel="noreferrer">
+            <div class="social-icon discord"><i class="fa-brands fa-discord"></i></div>
+            <div>
+              <h3>Discord</h3>
+              <p>Comunidad y soporte directo</p>
+            </div>
+          </a>
+          <a class="social-card" href="https://tiktok.com/@tecno_bros" target="_blank" rel="noreferrer">
+            <div class="social-icon tiktok"><i class="fa-brands fa-tiktok"></i></div>
+            <div>
+              <h3>TikTok</h3>
+              <p>Clips, demos y tips rápidos</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section reveal">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <p class="section-kicker">Contáctame</p>
+            <h2>¿Listo para construir algo juntos?</h2>
+            <p class="section-sub">Estoy abierto a nuevas oportunidades, colaboraciones y proyectos freelance.</p>
+          </div>
+          <div class="contact-actions">
+            <div class="email-row">
+              <span id="email-value" class="email-value" data-email="contacto@tecnobros.es">contacto@tecnobros.es</span>
+              <div class="contact-buttons">
+                <a class="btn primary small" href="mailto:contacto@tecnobros.es">Enviar correo</a>
+                <button id="copy-email" class="btn ghost small" type="button">
+                  <i class="fa-regular fa-copy"></i>
+                  Copiar
+                </button>
+              </div>
+            </div>
+            <span id="copy-email-tooltip" class="copy-status" aria-live="polite">Copiar correo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Gracias por visitar mi portfolio. Disponible para nuevos retos.</p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/index.js"></script>
 </body>
-
 </html>
